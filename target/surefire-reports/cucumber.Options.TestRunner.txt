@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: cucumber.Options.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 21.855 sec <<< FAILURE!
+Delete Place using delete place API(Successfully run the Places API)  Time elapsed: 2.054 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<null> but was:<OK>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at stepDefinitions.StepDefinition.ValidateResponseBodyFields(StepDefinition.java:114)
+	at ?.Response should contain "status" as "OK" for "DeletePlaceAPI"(file:///C:/Users/Aadiya%20Lijo/eclpse-wksp/PlacesAPI/src/test/java/features/Addplaces.feature:27)
+

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="3" failures="1" name="cucumber.Options.TestRunner" time="21.273" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_281\jre\bin"/>
+    <property name="java.vm.version" value="25.281-b09"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Aadiya Lijo\eclpse-wksp\PlacesAPI"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Aadiya Lijo\eclpse-wksp\PlacesAPI"/>
+    <property name="java.runtime.version" value="1.8.0_281-b09"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_281\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\AADIYA~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Udemy\Framework\apache-maven-3.8.1-bin\apache-maven-3.8.1\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_281\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Anaconda3;C:\ProgramData\Anaconda3\Library\mingw-w64\bin;C:\ProgramData\Anaconda3\Library\usr\bin;C:\ProgramData\Anaconda3\Library\bin;C:\ProgramData\Anaconda3\Scripts;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Java\jdk1.8.0_281\bin;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Udemy\Framework\apache-maven-3.8.1-bin\apache-maven-3.8.1\bin;C:\Users\Aadiya Lijo\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\PyCharm 2020.3.5\bin;;."/>
+    <property name="maven.conf" value="C:\Udemy\Framework\apache-maven-3.8.1-bin\apache-maven-3.8.1\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Udemy\Framework\apache-maven-3.8.1-bin\apache-maven-3.8.1\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\Aadiya Lijo"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Aadiya Lijo"/>
+    <property name="java.class.path" value="C:\Udemy\Framework\apache-maven-3.8.1-bin\apache-maven-3.8.1\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_281\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test verify"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_281"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_281\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_281\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Udemy\Framework\apache-maven-3.8.1-bin\apache-maven-3.8.1\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="Successfully run the Places API" name="Places scenario Add Get Put Delete #1" time="11.212"/>
+  <testcase classname="Successfully run the Places API" name="Places scenario Add Get Put Delete #2" time="8.007"/>
+  <testcase classname="Successfully run the Places API" name="Delete Place using delete place API" time="2.054">
+    <failure message="expected:&lt;null&gt; but was:&lt;OK&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;null&gt; but was:&lt;OK&gt;
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at stepDefinitions.StepDefinition.ValidateResponseBodyFields(StepDefinition.java:114)
+	at ✽.Response should contain &quot;status&quot; as &quot;OK&quot; for &quot;DeletePlaceAPI&quot;(file:///C:/Users/Aadiya%20Lijo/eclpse-wksp/PlacesAPI/src/test/java/features/Addplaces.feature:27)
+</failure>
+    <system-out>
+@Delete
+Scenario Outline: Delete Place using delete place API                             &amp;#27;[90m# src/test/java/features/Addplaces.feature:31&amp;#27;[0m
+https://rahulshettyacademy.com
+Request method:	DELETE
+Request URI:	https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	key=qaclick123
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=text/plain; charset=ISO-8859-1
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:
+{&quot;place_id&quot;:&quot;38a5141bddbba4bbd44639114eaec990&quot;}
+HTTP/1.1 404 Not Found
+Date: Thu, 29 Apr 2021 22:31:31 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 69
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    &quot;msg&quot;: &quot;Delete operation failed, looks like the data doesn&apos;t exists&quot;
+}
+  &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mplaceId is successfully generated for &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&quot;DeletePlaceAPI&quot;&amp;#27;[0m&amp;#27;[32m with &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&quot;delete&quot;&amp;#27;[0m&amp;#27;[32m method&amp;#27;[0m &amp;#27;[90m# stepDefinitions.StepDefinition.placeid_is_successfully_generated(java.lang.String,java.lang.String)&amp;#27;[0m
+  &amp;#27;[31mThen &amp;#27;[0m&amp;#27;[31mResponse should contain &amp;#27;[0m&amp;#27;[31m&amp;#27;[1m&quot;status&quot;&amp;#27;[0m&amp;#27;[31m as &amp;#27;[0m&amp;#27;[31m&amp;#27;[1m&quot;OK&quot;&amp;#27;[0m&amp;#27;[31m for &amp;#27;[0m&amp;#27;[31m&amp;#27;[1m&quot;DeletePlaceAPI&quot;&amp;#27;[0m              &amp;#27;[90m# stepDefinitions.StepDefinition.ValidateResponseBodyFields(java.lang.String,java.lang.String,java.lang.String)&amp;#27;[0m
+      &amp;#27;[31mjava.lang.AssertionError: expected:&lt;null&gt; but was:&lt;OK&gt;
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at stepDefinitions.StepDefinition.ValidateResponseBodyFields(StepDefinition.java:114)
+	at âœ½.Response should contain &quot;status&quot; as &quot;OK&quot; for &quot;DeletePlaceAPI&quot;(file:///C:/Users/Aadiya%20Lijo/eclpse-wksp/PlacesAPI/src/test/java/features/Addplaces.feature:27)
+&amp;#27;[0m
+</system-out>
+  </testcase>
+</testsuite>

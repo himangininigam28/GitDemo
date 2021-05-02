@@ -1,0 +1,794 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-04-29T22:01:39.038Z",
+        "line": 21,
+        "name": "Places scenario Add Get Put Delete",
+        "description": "",
+        "id": "successfully-run-the-places-api;places-scenario-add-get-put-delete;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 66008800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The AddPlace api payload is ready \"Pagalpur\" \"Hindi\" \"4346 Nahargarh Road\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pagalpur\"",
+                  "offset": 34
+                },
+                {
+                  "val": "\"Hindi\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"4346 Nahargarh Road\"",
+                  "offset": 53
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition.AddPlacePayload(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2213892800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "\"AddPlaceAPI\" is triggered with \"post\" method",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"AddPlaceAPI\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"post\"",
+                  "offset": 32
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition.ApiRequestTrigger(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 458120900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Response should contain \"status\" as \"OK\" for \"AddPlaceAPI\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"status\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"OK\"",
+                  "offset": 36
+                },
+                {
+                  "val": "\"AddPlaceAPI\"",
+                  "offset": 45
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition.ValidateResponseBodyFields(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 13004700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Response should contain \"scope\" as \"APP\" for \"AddPlaceAPI\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"scope\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"APP\"",
+                  "offset": 35
+                },
+                {
+                  "val": "\"AddPlaceAPI\"",
+                  "offset": 45
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition.ValidateResponseBodyFields(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3747695100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "placeId is successfully generated for \"GetPlaceAPI\" with \"get\" method",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"GetPlaceAPI\"",
+                  "offset": 38
+                },
+                {
+                  "val": "\"get\"",
+                  "offset": 57
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition.placeid_is_successfully_generated(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10002900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "placeId is successfully generated to validate \"name\" field with value \"Pagalpur\" using \"GetPlaceAPI\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"name\"",
+                  "offset": 46
+                },
+                {
+                  "val": "\"Pagalpur\"",
+                  "offset": 70
+                },
+                {
+                  "val": "\"GetPlaceAPI\"",
+                  "offset": 87
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition.response_should_contain_same_as(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10003400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "placeId is successfully generated to validate \"language\" field with value \"Hindi\" using \"GetPlaceAPI\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"language\"",
+                  "offset": 46
+                },
+                {
+                  "val": "\"Hindi\"",
+                  "offset": 74
+                },
+                {
+                  "val": "\"GetPlaceAPI\"",
+                  "offset": 88
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition.response_should_contain_same_as(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7995300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "placeId is successfully generated to validate \"address\" field with value \"4346 Nahargarh Road\" using \"GetPlaceAPI\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"address\"",
+                  "offset": 46
+                },
+                {
+                  "val": "\"4346 Nahargarh Road\"",
+                  "offset": 73
+                },
+                {
+                  "val": "\"GetPlaceAPI\"",
+                  "offset": 101
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition.response_should_contain_same_as(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2088961200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Use placeId to update the \"www.abc.com\" \"(+91)8589029876\" \"French\" \"Nayyan House Thrissur, India\" using \"UpdatePlaceAPI\" and \"put\" method",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"www.abc.com\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"(+91)8589029876\"",
+                  "offset": 40
+                },
+                {
+                  "val": "\"French\"",
+                  "offset": 58
+                },
+                {
+                  "val": "\"Nayyan House Thrissur, India\"",
+                  "offset": 67
+                },
+                {
+                  "val": "\"UpdatePlaceAPI\"",
+                  "offset": 104
+                },
+                {
+                  "val": "\"put\"",
+                  "offset": 125
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition.use_place_id_to_update_the_using(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Response Header should contain \"statusCode\" as \"200\" for \"AddPlaceAPI\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"statusCode\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"200\"",
+                  "offset": 47
+                },
+                {
+                  "val": "\"AddPlaceAPI\"",
+                  "offset": 57
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition.response_header_should_contain_as(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8014900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Response should contain \"msg\" as \"Address successfully updated\" for \"UpdatePlaceAPI\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"msg\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"Address successfully updated\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"UpdatePlaceAPI\"",
+                  "offset": 68
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition.ValidateResponseBodyFields(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2032444800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "placeId is successfully generated for \"DeletePlaceAPI\" with \"delete\" method",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"DeletePlaceAPI\"",
+                  "offset": 38
+                },
+                {
+                  "val": "\"delete\"",
+                  "offset": 60
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition.placeid_is_successfully_generated(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8016300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Response should contain \"status\" as \"OK\" for \"DeletePlaceAPI\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"status\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"OK\"",
+                  "offset": 36
+                },
+                {
+                  "val": "\"DeletePlaceAPI\"",
+                  "offset": 45
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition.ValidateResponseBodyFields(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@E2E"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-29T22:01:49.781Z",
+        "line": 22,
+        "name": "Places scenario Add Get Put Delete",
+        "description": "",
+        "id": "successfully-run-the-places-api;places-scenario-add-get-put-delete;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1008500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The AddPlace api payload is ready \"Pagalpur2\" \"Hindi 2\" \"4346 Nahargarh Road2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pagalpur2\"",
+                  "offset": 34
+                },
+                {
+                  "val": "\"Hindi 2\"",
+                  "offset": 46
+                },
+                {
+                  "val": "\"4346 Nahargarh Road2\"",
+                  "offset": 56
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition.AddPlacePayload(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 517919300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "\"AddPlaceAPI\" is triggered with \"post\" method",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"AddPlaceAPI\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"post\"",
+                  "offset": 32
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition.ApiRequestTrigger(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8001100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Response should contain \"status\" as \"OK\" for \"AddPlaceAPI\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"status\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"OK\"",
+                  "offset": 36
+                },
+                {
+                  "val": "\"AddPlaceAPI\"",
+                  "offset": 45
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition.ValidateResponseBodyFields(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7002200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Response should contain \"scope\" as \"APP\" for \"AddPlaceAPI\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"scope\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"APP\"",
+                  "offset": 35
+                },
+                {
+                  "val": "\"AddPlaceAPI\"",
+                  "offset": 45
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition.ValidateResponseBodyFields(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3427422400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "placeId is successfully generated for \"GetPlaceAPI\" with \"get\" method",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"GetPlaceAPI\"",
+                  "offset": 38
+                },
+                {
+                  "val": "\"get\"",
+                  "offset": 57
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition.placeid_is_successfully_generated(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8007700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "placeId is successfully generated to validate \"name\" field with value \"Pagalpur2\" using \"GetPlaceAPI\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"name\"",
+                  "offset": 46
+                },
+                {
+                  "val": "\"Pagalpur2\"",
+                  "offset": 70
+                },
+                {
+                  "val": "\"GetPlaceAPI\"",
+                  "offset": 88
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition.response_should_contain_same_as(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9002300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "placeId is successfully generated to validate \"language\" field with value \"Hindi 2\" using \"GetPlaceAPI\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"language\"",
+                  "offset": 46
+                },
+                {
+                  "val": "\"Hindi 2\"",
+                  "offset": 74
+                },
+                {
+                  "val": "\"GetPlaceAPI\"",
+                  "offset": 90
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition.response_should_contain_same_as(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8002000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "placeId is successfully generated to validate \"address\" field with value \"4346 Nahargarh Road2\" using \"GetPlaceAPI\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"address\"",
+                  "offset": 46
+                },
+                {
+                  "val": "\"4346 Nahargarh Road2\"",
+                  "offset": 73
+                },
+                {
+                  "val": "\"GetPlaceAPI\"",
+                  "offset": 102
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition.response_should_contain_same_as(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2059467800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Use placeId to update the \"www.abc.com2\" \"(+91)85890298761\" \"French\" \"Nayyan House Thrissur, India\" using \"UpdatePlaceAPI\" and \"put\" method",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"www.abc.com2\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"(+91)85890298761\"",
+                  "offset": 41
+                },
+                {
+                  "val": "\"French\"",
+                  "offset": 60
+                },
+                {
+                  "val": "\"Nayyan House Thrissur, India\"",
+                  "offset": 69
+                },
+                {
+                  "val": "\"UpdatePlaceAPI\"",
+                  "offset": 106
+                },
+                {
+                  "val": "\"put\"",
+                  "offset": 127
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition.use_place_id_to_update_the_using(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Response Header should contain \"statusCode\" as \"200\" for \"AddPlaceAPI\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"statusCode\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"200\"",
+                  "offset": 47
+                },
+                {
+                  "val": "\"AddPlaceAPI\"",
+                  "offset": 57
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition.response_header_should_contain_as(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8015100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Response should contain \"msg\" as \"Address successfully updated\" for \"UpdatePlaceAPI\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"msg\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"Address successfully updated\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"UpdatePlaceAPI\"",
+                  "offset": 68
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition.ValidateResponseBodyFields(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2030688300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "placeId is successfully generated for \"DeletePlaceAPI\" with \"delete\" method",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"DeletePlaceAPI\"",
+                  "offset": 38
+                },
+                {
+                  "val": "\"delete\"",
+                  "offset": 60
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition.placeid_is_successfully_generated(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8008500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Response should contain \"status\" as \"OK\" for \"DeletePlaceAPI\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"status\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"OK\"",
+                  "offset": 36
+                },
+                {
+                  "val": "\"DeletePlaceAPI\"",
+                  "offset": 45
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition.ValidateResponseBodyFields(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@E2E"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-29T22:01:57.884Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Cucumberhooks.BeforeDeletePlace()"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "Delete Place using delete place API",
+        "description": "",
+        "id": "successfully-run-the-places-api;delete-place-using-delete-place-api;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2524193300,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "placeId is successfully generated for \"DeletePlaceAPI\" with \"delete\" method",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"DeletePlaceAPI\"",
+                  "offset": 38
+                },
+                {
+                  "val": "\"delete\"",
+                  "offset": 60
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition.placeid_is_successfully_generated(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected:\u003cnull\u003e but was:\u003cOK\u003e\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:835)\r\n\tat org.junit.Assert.assertEquals(Assert.java:120)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat stepDefinitions.StepDefinition.ValidateResponseBodyFields(StepDefinition.java:114)\r\n\tat ✽.Response should contain \"status\" as \"OK\" for \"DeletePlaceAPI\"(file:///C:/Users/Aadiya%20Lijo/eclpse-wksp/PlacesAPI/src/test/java/features/Addplaces.feature:27)\r\n",
+              "duration": 9009100,
+              "status": "failed"
+            },
+            "line": 27,
+            "name": "Response should contain \"status\" as \"OK\" for \"DeletePlaceAPI\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"status\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"OK\"",
+                  "offset": 36
+                },
+                {
+                  "val": "\"DeletePlaceAPI\"",
+                  "offset": 45
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition.ValidateResponseBodyFields(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Delete"
+          }
+        ]
+      }
+    ],
+    "name": "Successfully run the Places API",
+    "description": "",
+    "id": "successfully-run-the-places-api",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Addplaces.feature",
+    "tags": []
+  }
+]
