@@ -43,6 +43,8 @@ public class StepDefinition extends Utilities{
 
     @When("{string} is triggered with {string} method")
     public Response ApiRequestTrigger(String apiName, String apiMethod) throws IOException, URISyntaxException, MalformedURLException{
+		
+		System.out.println("Nop");
         
     	APIResources resourceAPI = APIResources.valueOf(apiName);
     	request1= RequestSpecification();
